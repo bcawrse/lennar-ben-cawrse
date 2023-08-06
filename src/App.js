@@ -5,8 +5,8 @@ import { Nav } from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
+    <div className="app">
+      <Nav className="app__nav" />
       {/* <header className="App-header"> */}
       {/* <img src={logo} className="App-logo" alt="logo" /> */}
       {/* <p>
@@ -21,8 +21,8 @@ function App() {
           Learn React
         </a> */}
       {/* </header> */}
-      <main>
-        <Hero>Lots of content here</Hero>
+      <main className="app__main">
+        <Hero />
       </main>
     </div>
   );

@@ -1,6 +1,5 @@
 .hero {
   background-color: #111827;
-  min-height: 100%;
   padding: 96px 0;
   background-repeat: no-repeat;
   background-position: 100% 0%;
@@ -10,4 +9,8 @@
 .hero__content {
   max-width: 40%;
   color: #D1D5DB;
+}
+
+.hero__content__copy {
+  margin: 20px 0 48px;
 }
