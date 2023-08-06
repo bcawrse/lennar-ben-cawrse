@@ -1,12 +1,12 @@
 import "./hiringForm.css";
 import { useState } from "react";
 
-export const HiringForm = () => {
+export const HiringForm = ({ className }) => {
   // TODO: submission & email client-side validation
   const [email, setEmail] = useState("");
 
   return (
-    <div className="hiring-form">
+    <div className={`${className} hiring-form`}>
       <form>
         <div className="hiring-form__flex">
           <input

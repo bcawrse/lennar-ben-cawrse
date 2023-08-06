@@ -19,8 +19,8 @@ export const Hero = ({ children }) => {
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
         </p>
-        <HiringForm />
       </div>
+      <HiringForm className="hero__form" />
     </div>
   );
 };

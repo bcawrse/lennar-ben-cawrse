@@ -14,3 +14,7 @@
 .hero__content__copy {
   margin: 20px 0 48px;
 }
+
+.hero__form {
+  max-width: 55%;
+}

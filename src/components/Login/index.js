@@ -4,7 +4,9 @@ export const Login = () => {
   return (
     <div className="login">
       <a href="/">Log in</a>
-      <input className="btn" type="button" value="Start free trial" />
+      <a className="btn" href="/">
+        Start free trial
+      </a>
     </div>
   );
 };
