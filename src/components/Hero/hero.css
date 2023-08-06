@@ -18,3 +18,27 @@
 .hero__form {
   max-width: 55%;
 }
+
+@media (max-width: 833px) {
+  .hero {
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 100% 50%;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    width: 100%;
+    color: #D1D5DB;
+  }
+
+  .hero__content__copy {
+    margin: 16px 0 40px;
+  }
+
+  .hero__form {
+    max-width: 100%;
+    width: 100%;
+  }
+}
