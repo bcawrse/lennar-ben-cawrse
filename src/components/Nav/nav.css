@@ -1,4 +1,31 @@
 .nav {
   min-height: 45px;
   padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.nav__logo {
+  width: 40px;
+  height: 43.75px;
+  display: inline-block;
+  flex-grow: 0;
+}
+
+.nav__links {
+  flex-grow: 1;
+  text-align: left;
+  font-weight: 500;
+}
+
+.nav__links :not(a:last-child) {
+  margin-right: 32px;
+}
+
+.nav__login {
+  flex-grow: 0
 }

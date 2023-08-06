@@ -3,7 +3,6 @@
   border-radius: 14px;
   padding: 4px 8px 4px 4px;
   display: inline-block;
-  cursor: pointer;
 }
 
 .hiring-cta__pill {
@@ -11,16 +10,13 @@
   color: white;
   padding: 2px 12px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .hiring-cta__copy {
   padding: 0 8px;
-  cursor: pointer;
 }
 
 .hiring-cta__icon {
   position: relative;
   top: 2px;
-  cursor: pointer;
 }

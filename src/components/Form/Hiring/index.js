@@ -17,13 +17,20 @@ export const HiringForm = () => {
             }}
             value={email}
           />
-          <input type="button" value="Start free trial" />
+          <input
+            className="btn btn--primary"
+            type="button"
+            value="Start free trial"
+          />
         </div>
       </form>
       <p className="hiring-form__copy">
         Start your free 14-day trial, no credit card necessary. By providing
         your email, you agree to our{" "}
-        <em className="hiring-form__copy__link">terms or service</em>.
+        <a className="hiring-form__copy__link" href="/">
+          terms or service
+        </a>
+        .
       </p>
     </div>
   );
