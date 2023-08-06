@@ -7,7 +7,9 @@ export const Nav = () => {
   return (
     <header>
       <div className="nav">
-        <img className="nav__logo" src={logo} alt="logo" />
+        <a href="/" alt="home">
+          <img className="nav__logo" src={logo} alt="logo" />
+        </a>
         <div className="nav__links">
           <a href="/">Product</a>
           <a href="/">Features</a>
@@ -17,7 +19,9 @@ export const Nav = () => {
         <Login className="nav__login" />
       </div>
       <div className="nav__mobile">
-        <img className="nav__logo" src={logo} alt="logo" />
+        <a href="/" alt="home">
+          <img className="nav__logo" src={logo} alt="logo" />
+        </a>
         <MobileMenu />
       </div>
     </header>
