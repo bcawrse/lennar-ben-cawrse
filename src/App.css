@@ -1,0 +1,9 @@
+.App {
+  color: white;
+  background-color: #111827;
+  min-height: 100vh;
+}
+
+.App main {
+  padding: 0 32px;
+}
