@@ -1,0 +1,22 @@
+.hiring-cta {
+  background: black;
+  border-radius: 14px;
+  padding: 4px 8px 4px 4px;
+  display: inline-block;
+}
+
+.hiring-cta__pill {
+  background-color: #6366F1;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 10px;
+}
+
+.hiring-cta__copy {
+  padding: 0 8px;
+}
+
+.hiring-cta__icon {
+  position: relative;
+  top: 2px;
+}

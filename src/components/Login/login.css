@@ -1,0 +1,7 @@
+.login a {
+  font-weight: 500;
+}
+
+.login a:first-child {
+  margin-right: 40px;
+}

@@ -1,0 +1,12 @@
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  display: block;
+  margin-top: 24px;
+}
+
+.title em {
+  color: #818CF8;
+  font-style: normal;
+  display: block;
+}
