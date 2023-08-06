@@ -32,10 +32,33 @@
   flex-grow: 0
 }
 
+.nav__mobile {
+  display: none;
+  padding: 16px 28px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav__mobile .nav__login {
+  width: 37.5px;
+  height: 41.25px;
+}
+
 /* tablet */
 @media (max-width: 1079px) {
   .nav__logo {
     width: 37.5px;
     height: 41.25px;
+  }
+}
+
+/* mobile */
+@media (max-width: 833px) {
+  .nav {
+    display: none;
+  }
+  .nav__mobile {
+    display: flex;
   }
 }
